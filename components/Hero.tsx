@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
             href="#projects"
             className="w-full sm:w-auto bg-accent text-background font-bold py-3 px-8 rounded-md hover:bg-accent-dark transition-colors duration-300"
           >
-            View My Projects
+            Milestones I Achieved
           </a>
           <a
             href="#blog"
