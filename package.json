@@ -1,11 +1,14 @@
 {
-  "name": "isharab-ahmed-portfolio",
-  "homepage": "https://isharabahmed.github.io",
-  "version": "1.0.0",
+  "name": "isharab-ahmed---personal-portfolio",
+  "homepage": "https://isharabahmed.github.io/isharab",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
